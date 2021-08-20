@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 30px;
+  border-radius: 5px;
+
+  background: var(--dark-violet) url("../../../../images/bg-shorten-desktop.svg") no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  input {
+    border: 0;
+    border-radius: 5px;
+
+    width: 100%;
+    height: 3rem;
+
+    padding: 1.5rem;
+
+    &::placeholder {
+      color: var(--grayish-violet);
+    }
+  }
+
+  button {
+    background: var(--cyan);
+    color: #fff;
+    font-weight: 700;
+
+    border: 0;
+    border-radius: 5px;
+
+    width: 7rem;
+    height: 3rem;
+
+    margin-left: 1.2rem;
+
+    &:hover {
+      filter: brightness(1.4);
+      cursor: pointer;
+    }
+
+    &:disabled {
+      background: var(--gray);
+      filter: brightness(0.9);
+      cursor: auto;
+    }
+  }
+}
+
+
+.containerShortenLink {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+
+  border-radius: 5px;
+
+  background: #FFFFFF;
+
+  p {
+    color: var(--very-dark-blue);
+  }
+}
+
+.copyShotLink {
+  display: flex;
+  align-items: center;
+
+  p {
+    color: var(--cyan);
+  }
+
+  button {
+    background: var(--cyan);
+    color: #fff;
+    font-weight: 700;
+
+    border: 0;
+    border-radius: 5px;
+
+    width: 5rem;
+    height: 2rem;
+
+    margin-left: 1.2rem;
+
+    &:hover {
+      filter: brightness(1.4);
+      cursor: pointer;
+    }
+  }
+}

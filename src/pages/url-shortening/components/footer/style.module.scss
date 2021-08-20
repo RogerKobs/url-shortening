@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 10%;
+
+  background: var(--very-dark-violet);
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    margin: 3rem 0;
+  }
+
+  p {
+    color: #FFFFFF;
+    font-weight: 700;
+
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: var(--gray);
+    text-decoration: none;
+
+    margin-top: 5px;
+
+    &:hover {
+      color: var(--cyan);
+    }
+  }
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  a {
+    &:hover {
+      cursor: pointer;
+      color: var(--cyan);
+    }
+  }
+}
