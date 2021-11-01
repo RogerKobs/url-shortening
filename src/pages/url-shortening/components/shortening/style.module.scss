@@ -7,7 +7,8 @@
   padding: 30px;
   border-radius: 5px;
 
-  background: var(--dark-violet) url("../../../../images/bg-shorten-desktop.svg") no-repeat;
+  background: var(--dark-violet)
+    url("../../../../images/bg-shorten-desktop.svg") no-repeat;
   background-size: cover;
   width: 100%;
 
@@ -39,7 +40,7 @@
     margin-left: 1.2rem;
 
     &:hover {
-      filter: brightness(1.4);
+      filter: brightness(1.2);
       cursor: pointer;
     }
 
@@ -50,7 +51,6 @@
     }
   }
 }
-
 
 .containerShortenLink {
   display: flex;
@@ -63,7 +63,7 @@
 
   border-radius: 5px;
 
-  background: #FFFFFF;
+  background: #ffffff;
 
   p {
     color: var(--very-dark-blue);
@@ -92,7 +92,7 @@
     margin-left: 1.2rem;
 
     &:hover {
-      filter: brightness(1.4);
+      filter: brightness(1.2);
       cursor: pointer;
     }
   }
